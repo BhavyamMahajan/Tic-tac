@@ -1,2 +1,2 @@
-# Tic-tac
+# Tic-tac-toe
 Created with CodeSandbox
