@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('img/tic-tac-toe-scaled.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    filter: blur(3px);
+}
+.centr{
+    display:flex;
+    justify-content:center;
+}
+.box{
+    background-color: rgba(0, 0, 0, 0.801);
+    width: 280px;
+    height: 326px;
+    padding: 50px;
+    border-radius: 30px;
+    position: absolute;
+    top: 21%;
+    /* left: 39%; */
+    color: #9da3b1;
+}
+p{ font-size: 25px; }
+.rad{
+    width: 23px;
+    height: 16px;
+}
+
+#p1,#p2{
+    background: black;
+    margin: 10px 0;
+    color: white;
+    width: 229px;
+    height: 40px;
+    font-size: 20px;
+    border: 2px solid white;
+    text-align: center;
+}
+#p2{
+    display: none;
+}
+#btn{
+    width: 125px;
+    height: 49px;
+    font-size: 38px;
+    /* margin: 55px 67px 0px; */
+    background: #3b3d46;
+    color: rgb(202, 196, 196);
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0px 4px 10px 6px black;
+    cursor: pointer;
+    margin-left: 70px;
+    position: absolute;
+    bottom: 30px
+}
+#btn:hover{
+    background: #27282e;
+}
+
+
+
+/* @media screen and (min-width:350px){
+    .main{
+        width:100vw;
+        height:100vh;
+    }
+    .box{
+        width:150px;
+        height:250px;
+        position:absolute;
+        top:20%;
+        left:16%;
+     }
+     p{
+         font-size:18px;
+     }
+     #p1,#p2{
+         width:150px;
+         height:25px;
+         font-size:12px;
+     }
+     #btn{
+          width: 110px;
+          height: 40px;
+          font-size: 30px;
+          margin-left:25px;
+     
+     }
+
+}  */
+
+@media screen and (max-width:500px){
+    .main{
+        width:100vw;
+        height:100vh;
+    }
+       .box{
+        width: 150px;
+        height:250px;
+     }
+     p{
+         font-size: 18px;
+     }
+     #p1,#p2{
+         width:150px;
+         height:25px;
+         font-size:12px;
+     }
+     #btn{
+          width: 110px;
+          height: 40px;
+          font-size: 30px;
+          margin-left:25px;
+     
+     }
+
+}  
+
+@media screen and (min-width:500px) and (max-width:1100px){
+    .main{
+        width:100vw;
+        height:100vh;
+    }
+    .box{
+        width: 335px;
+        height: 387px;
+     }
+      p{
+         font-size: 28px;
+     }
+     #p1,#p2{
+         width: 244px;
+         height: 29px;
+         font-size: 15px;
+     }
+      #btn{
+          width: 115px;
+          height: 45px;
+          font-size: 30px;
+          margin-left:110px; 
+     
+     }
+
+}

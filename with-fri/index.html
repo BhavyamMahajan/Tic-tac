@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/comp-page/style.css">
+    <title>Game | Tic-Tac-Toe</title>
+</head>
+<body>
+    <a href="/home.html"><span id="head">Tic Tac Toe</span></a>
+
+    <div class="pyro" id="eff">
+        <div class="before"></div>
+        <div class="after"></div>
+    </div>
+
+    <div id="p-name"></div>
+    <div id="p2-name"></div>
+
+    <div id="winner-name"><img src="/img/cup1.png" alt="" id="pic"><span id="won"></span></div>
+   
+    <div class="main">
+        <div class="container">
+            <table id="t1">
+                <tr>
+                    <td id='0' class="br-0 bb" onclick=play_game(this.id)></td>
+                    <td id='1' class="br-0 bb" onclick=play_game(this.id)></td>
+                    <td id='2'onclick=play_game(this.id)></td>
+                </tr>
+                <tr>
+                    <td id='3' class="br-0 bb" onclick=play_game(this.id)></td>
+                    <td id='4' class="br-0 bb" onclick=play_game(this.id)></td>
+                    <td id='5' class="bb bt" onclick=play_game(this.id)></td>
+                </tr>
+                <tr>
+                    <td id='6' class="br-0" onclick=play_game(this.id)></td>
+                    <td id='7' class="br-0" onclick=play_game(this.id)></td>
+                    <td id='8' onclick=play_game(this.id)></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Home | Tic-Tac-Toe</title>
+</head>
+
+<body>
+    <div class="main"></div>
+    <div class="centr">
+        <div class="box">
+        <form method="post">
+            <p id="rad_nam">
+                Play with:<br>
+                <input type="radio" name="opt" class="rad" value="comp" id="comp" onclick="hide()" checked>Computer &nbsp;&nbsp;
+                <input type="radio" name="opt" class="rad" value="human" id="friend" onclick="hide()">Friend
+            </p><br>
+            <input type="text" placeholder="player1 name" id="p1" required>
+            <input type="text" placeholder="player2 name" id="p2" required><br>
+            <input type="button" value="Start" id="btn" onclick="myfun()">
+        </form>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
